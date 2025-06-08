@@ -68,9 +68,6 @@ export default function SpecialtyComponents() {
                     <Button asChild>
                       <Link href="/contact">Request Quote</Link>
                     </Button>
-                    <Button variant="outline" asChild>
-                      <Link href="/products">View All Products</Link>
-                    </Button>
                   </div>
                 </div>
                 <div className="md:w-1/2 flex justify-center">
