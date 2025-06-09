@@ -11,14 +11,14 @@ import Link from "next/link";
 const specialtyProducts = [
   { 
     name: "Special Fasteners", 
-    image: "/images/Special Fasteners.jpg", 
+    image: "/images/Special Fasteners.JPG", 
     description: "Specialized fasteners designed for specific applications requiring unique features, materials, or performance characteristics.",
     products: ["Collar Bolts", "Flange Screws"],
     alt: "Specialized fasteners designed for unique industrial applications"
   },
   { 
     name: "Custom Engineered Solutions", 
-    image: "/images/Custom Engineered Solutions.jpg", 
+    image: "/images/Custom Engineered Solutions.JPG", 
     description: "Custom-designed components tailored to specific requirements and applications across various industries.",
     products: ["Custom Engineered Solutions"],
     alt: "Custom engineered components for specialized applications"

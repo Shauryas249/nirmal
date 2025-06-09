@@ -25,7 +25,7 @@ const automotiveIndustrialComponents = [
   },
   { 
     name: "General Automotive", 
-    image: "/images/General Automotive.jpg", 
+    image: "/images/General Automotive.JPG", 
     description: "Precision-manufactured components for various automotive applications, meeting OEM specifications and quality standards.",
     products: ["Brass Inserts", "Insert Nuts", "Water Inlets/Outlets", "Ball Pins and Studs", "Collar Sleeves", "Liners", "Flange Pulleys", "Compressor Limiters", "Special Screws", "Dowel Pins (DIN Standards)", "T-Rods and Tubes"],
     alt: "Precision-manufactured automotive components and fasteners"
