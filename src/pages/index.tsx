@@ -4,7 +4,7 @@ export default function MaintenancePage() {
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Nirmal Auto Tech - Website Maintenance</title>
+        <title>Mirani Auto Tech - Website Maintenance</title>
         <style jsx>{`
           * {
             margin: 0;
@@ -13,130 +13,119 @@ export default function MaintenancePage() {
           }
           
           body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             display: flex;
-            align-items: center;
             justify-content: center;
-            color: #333;
+            align-items: center;
+            color: white;
           }
           
-          .container {
-            background: white;
-            padding: 60px 40px;
-            border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+          .maintenance-container {
             text-align: center;
-            max-width: 500px;
-            width: 90%;
+            max-width: 600px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
           }
           
           .logo {
-            width: 80px;
-            height: 80px;
-            background: #2a5298;
-            border-radius: 50%;
+            width: 120px;
+            height: 120px;
             margin: 0 auto 30px;
+            background: #fff;
+            border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
-            font-size: 24px;
+            font-size: 48px;
+            color: #667eea;
             font-weight: bold;
           }
           
           h1 {
-            color: #2a5298;
+            font-size: 2.5rem;
             margin-bottom: 20px;
-            font-size: 28px;
-            font-weight: 600;
+            font-weight: 300;
           }
           
           .subtitle {
-            color: #666;
-            font-size: 18px;
+            font-size: 1.2rem;
             margin-bottom: 30px;
-            line-height: 1.5;
+            opacity: 0.9;
           }
           
           .message {
-            background: #f8f9fa;
-            padding: 25px;
-            border-radius: 10px;
-            margin: 30px 0;
-            border-left: 4px solid #2a5298;
-          }
-          
-          .message p {
-            color: #555;
+            font-size: 1.1rem;
             line-height: 1.6;
-            margin-bottom: 15px;
+            margin-bottom: 40px;
+            opacity: 0.8;
           }
           
           .contact-info {
-            margin-top: 30px;
+            background: rgba(255, 255, 255, 0.1);
             padding: 20px;
-            background: #2a5298;
-            color: white;
             border-radius: 10px;
+            margin-bottom: 30px;
           }
           
           .contact-info h3 {
             margin-bottom: 15px;
-            font-size: 18px;
+            font-size: 1.3rem;
           }
           
           .contact-info p {
-            margin: 5px 0;
-            opacity: 0.9;
+            margin-bottom: 8px;
+            font-size: 1rem;
           }
           
-          .status-indicator {
-            display: inline-block;
-            width: 12px;
-            height: 12px;
-            background: #ffa500;
+          .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid white;
             border-radius: 50%;
-            margin-right: 8px;
-            animation: pulse 2s infinite;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
           }
           
-          @keyframes pulse {
-            0% { opacity: 1; }
-            50% { opacity: 0.5; }
-            100% { opacity: 1; }
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
           }
           
-          .footer {
-            margin-top: 30px;
-            color: #888;
-            font-size: 14px;
+          .eta {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            margin-top: 20px;
           }
         `}</style>
       </head>
       <body>
-        <div className="container">
-          <div className="logo">NT</div>
-          
-          <h1>Nirmal Auto Tech</h1>
-          <p className="subtitle">Two Wheeler Parts Specialist</p>
+        <div className="maintenance-container">
+          <div className="logo">
+            🔧
+          </div>
+          <h1>Website Under Maintenance</h1>
+          <p className="subtitle">Mirani Auto Tech</p>
           
           <div className="message">
-            <p><span className="status-indicator"></span><strong>Website Temporarily Under Maintenance</strong></p>
-            <p>We are currently updating our website to serve you better. Our services will be back online shortly.</p>
-            <p>For immediate assistance with auto parts and services, please contact us directly.</p>
+            <p>We're currently performing scheduled maintenance to improve your experience. Our website will be back online shortly.</p>
           </div>
           
           <div className="contact-info">
-            <h3>Get in Touch</h3>
-            <p>📧 Email: info@nirmalautotech.com</p>
+            <h3>Need Immediate Assistance?</h3>
+            <p><strong>Phone:</strong> [Your Phone Number]</p>
+            <p><strong>Email:</strong> [Your Email Address]</p>
+            <p><strong>Emergency:</strong> [Emergency Contact]</p>
           </div>
           
-          <div className="footer">
-            <p>Thank you for your patience</p>
-            <p>&copy; 2025 Nirmal Auto Tech. All rights reserved.</p>
-          </div>
+          <div className="spinner"></div>
+          
+          <p className="eta">Expected completion: [Time/Date]</p>
         </div>
       </body>
     </html>
