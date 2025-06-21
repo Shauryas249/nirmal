@@ -4,7 +4,7 @@ export default function MaintenancePage() {
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Mirani Auto Tech - Website Maintenance</title>
+        <title>Nirmal Auto Tech - Website Maintenance</title>
         <style jsx>{`
           * {
             margin: 0;
@@ -110,7 +110,7 @@ export default function MaintenancePage() {
             🔧
           </div>
           <h1>Website Under Maintenance</h1>
-          <p className="subtitle">Mirani Auto Tech</p>
+          <p className="subtitle">Nirmal Auto Tech</p>
           
           <div className="message">
             <p>We're currently performing scheduled maintenance to improve your experience. Our website will be back online shortly.</p>
