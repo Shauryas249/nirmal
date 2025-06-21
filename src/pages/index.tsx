@@ -131,8 +131,6 @@ export default function MaintenancePage() {
           <div className="contact-info">
             <h3>Get in Touch</h3>
             <p>📧 Email: info@nirmalautotech.com</p>
-            <p>📱 Phone: [Your Phone Number]</p>
-            <p>📍 Location: [Your Address]</p>
           </div>
           
           <div className="footer">
