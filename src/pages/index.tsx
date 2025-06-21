@@ -116,13 +116,6 @@ export default function MaintenancePage() {
             <p>We're currently performing scheduled maintenance to improve your experience. Our website will be back online shortly.</p>
           </div>
           
-          <div className="contact-info">
-            <h3>Need Immediate Assistance?</h3>
-            <p><strong>Phone:</strong> [Your Phone Number]</p>
-            <p><strong>Email:</strong> [Your Email Address]</p>
-            <p><strong>Emergency:</strong> [Emergency Contact]</p>
-          </div>
-          
           <div className="spinner"></div>
           
           <p className="eta">Expected completion: [Time/Date]</p>
